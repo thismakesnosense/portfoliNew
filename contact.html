@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <!-- Our brand / logo -->
+        <a class="navbar-brand" href="#">Nathan olenik</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+          <!-- Collapsible button -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+  
+            <!-- The links of our navbar -->
+            <li class="nav-item active">
+              <a class="nav-link" href="bio.html">About Me <span class="sr-only">(current)</span></a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Portfolio</a>
+            </li>
+  
+            <!-- a Dropdown menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+  
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </header>
+
+  <div class="container2 ">
+    <section id="tact">
+      <h1>Contact</h1>
+
+      <!-- <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="Subject">Subject</label>
+            <textarea id="Subject" name="Subject" placeholder="example" required="required"></textarea>
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form> -->
+
+      <form
+  action="https://formspree.io/nolenik23@outlook.com"
+  method="POST"
+>
+  <label>
+    Your Name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your Email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
+  <input type="submit" value="Send">
+</form>
+
+    </section>
+
+  </div>
+
+  <footer> 
+    <div class="footer">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
