@@ -30,7 +30,7 @@ footer {
     line-height: 34px;
     color: #777777;
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-                  url("../../media/examples/lizard.png");
+                  url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
     position: relative;
   } 
 
@@ -44,6 +44,7 @@ footer {
     margin: 0 0 40px;
     background: #ffffff10;
     border: 4px solid #552828;
+    
 
   } 
 
@@ -105,8 +106,4 @@ footer {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
-  }
-
-  button:hover {
-    
   }
